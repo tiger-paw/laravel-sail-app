@@ -28,6 +28,9 @@ class AuthenticatedSessionController extends Controller
 
         $request->session()->regenerate();
 
+        // セッションに成功フラグを入れる
+        $request->session()->flash('login_success', true);
+
         return redirect()->intended(route('dashboard', absolute: false));
     }
 
