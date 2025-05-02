@@ -33,7 +33,7 @@
             </main>
         </div>
         {{-- 上へスクロールするボタン --}}
-        <button style="display: none;" id="scrollToTopButton" class="fixed bottom-8 right-8 px-16 py-8 text-2xl bg-green-400 text-white shadow-lg rounded-full shadow-cyan-500/50 hover:bg-green-500 transition">
+        <button style="display: none;" id="scrollToTopButton" class="fixed bottom-24 right-8 px-16 py-8 text-2xl bg-green-400 text-white shadow-lg rounded-full shadow-cyan-500/50 hover:bg-green-500 transition">
             ↑ TOP
         </button>
 
